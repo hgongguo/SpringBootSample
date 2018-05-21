@@ -1,0 +1,6 @@
+#好像这个文件，并没有作用……
+spring.datasource.url=jdbc:mysql://localhost:3306/muses
+spring.datasource.username=root
+spring.datasource.password=123456
+spring.datasource.driver-class-name=com.mysql.jdbc.Driver
+#spring.datasource.driver-class-name=org.gjt.mm.mysql.Driver
