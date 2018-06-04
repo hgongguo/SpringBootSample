@@ -15,8 +15,20 @@ mybatis:
 spring:
   profiles: dev
 
+#数据库
   datasource:
     url: jdbc:mysql://localhost:3306/muses
     username: root
     password: 123456
     driver-class-name: com.mysql.jdbc.Driver
+
+#静态页面
+    thymeleaf:
+        prefix: classpath:/templates
+
+#端口号
+server:
+  port: 9090
+#  context-path: /com
+
+
