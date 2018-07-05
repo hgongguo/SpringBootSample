@@ -25,10 +25,11 @@ spring:
 #静态页面
     thymeleaf:
         prefix: classpath:/templates
+        suffix: .html
 
 #端口号
 server:
-  port: 9090
+  port: 6060
 #  context-path: /com
 
 

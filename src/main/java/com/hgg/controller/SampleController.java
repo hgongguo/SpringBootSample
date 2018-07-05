@@ -31,11 +31,24 @@ public class SampleController {
     List<Map> home() {
         return sampleService.getUserInfo();
     }
+
+
+
     @RequestMapping("/appId")
     @ResponseBody
     String appId() {
         return appId;
     }
+
+
+    @RequestMapping("/wechatInfo")
+    @ResponseBody
+    String wechatInfo(String code) {
+        System.out.println(code);
+        return code;
+    }
+
+
     @RequestMapping("/hello")
     String hello1() {
         System.out.println("H1");
