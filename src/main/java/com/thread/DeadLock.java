@@ -1,6 +1,7 @@
 package com.thread;
 
 /**
+ * 死锁
  * Created by hgg on 2019/9/24.
  */
 public class DeadLock {

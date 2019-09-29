@@ -1,6 +1,7 @@
 package com.thread;
 
 /**
+ * 临界资源
  * Created by hgg on 2019/9/24.
  */
 public class SourceConflict {

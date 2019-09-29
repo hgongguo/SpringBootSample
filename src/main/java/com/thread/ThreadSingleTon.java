@@ -1,6 +1,7 @@
 package com.thread;
 
 /**
+ * 懒汉式单例（线程安全）
  * Created by hgg on 2019/9/24.
  */
 public class ThreadSingleTon {
