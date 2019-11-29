@@ -25,6 +25,28 @@ public class SampleController {
     @Value("${weixin.appID}")
     private String appId = "";
 
+    private String index = "";//非静态
+
+
+    @RequestMapping("/test")
+    @ResponseBody
+    String test() {
+        index = "test";
+        return index;
+    }
+
+    @RequestMapping("/test1")
+    @ResponseBody
+    String test1() {
+        index = "test1";
+        return index;
+    }
+
+    @RequestMapping("/test2")
+    @ResponseBody
+    String test2() {
+        return index;
+    }
 
     @RequestMapping("/")
     @ResponseBody
